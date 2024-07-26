@@ -1,0 +1,22 @@
+body{
+   animation: cool;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+}
+@keyframes cool{
+    0%{background: #2f2fdd;}
+20%{background-color:#2f2fdd}
+40%{background-color:rgb(28, 28, 163)}
+60%{background-color:rgb(80, 80, 206)}
+80%{background-color:rgb(47, 47, 221)}
+90%{background-color:rgb(27, 27, 177)}
+100%{background-color:rgb(47, 47, 221)}
+}
+button#Transparent{
+    background-color:transparent;
+border-color:transparent;
+color:transparent;
+}
+button#Transparent:hover{
+    border-color:#2f2fdd;
+}
